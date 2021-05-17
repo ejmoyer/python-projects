@@ -1,0 +1,7 @@
+print("Why is this named after snakes?")
+# print("Hello world!")
+print("This is fun!")
+print('I just said "This is fun!"')
+print("Don't you agree?")
+print(1 + 2)
+print(1 > 2)

@@ -1,0 +1,20 @@
+Argparse:
+
+import argparse
+
+parser = argparse.ArgumentParser() - Sets up the argparse module
+parser.add_argument("argument_name", help="Help message here") - Adds arguments
+
+args = parser.parse_args() - 
+
+
+CAT:
+- Reads files and outputs their contents to the command line.
+- Can read multiple files (optional)
+- Can write that output to another file
+
+FIND: 
+find . -name "*.txt" -print
+
+- find a pattern for a file and match it (-name)
+- find all of a certain type (-type)
